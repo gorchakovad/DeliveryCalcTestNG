@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Some tests suite" parallel="tests" thread-count="5">
+    <test name="Some tests">
+        <groups>
+            <run>
+                <include name = "Negative"/>
+                <exclude name = "Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="DeliveryTests"/>
+        </classes>
+    </test>
+</suite>
